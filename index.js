@@ -11,9 +11,9 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 
-routes(app).algorithm()
-
-routes(app).errorRoute()
+routes(app).algorithRoute()
+routes(app).flowChartRoute()
+routes(app).errorsRoute()
 
 app.listen(config().port, () => {
   console.log(`Listening in port ${config().port}`)
