@@ -1,0 +1,25 @@
+{
+  "name": "algorithmchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarGDev/AlgorithmChallenge.git"
+  },
+  "author": "Carlos Gutierrez <ingecarlos.gutierrez@gmail.com> (https://cargdev.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarGDev/AlgorithmChallenge/issues"
+  },
+  "homepage": "https://github.com/CarGDev/AlgorithmChallenge#readme",
+  "devDependencies": {
+    "jest": "^26.5.2"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
