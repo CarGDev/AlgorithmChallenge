@@ -22,3 +22,177 @@
 2. Elabora un diagrama de flujo con los pasos para preparar cafe.
 
 3. Elabora un diagrama de flujo con los pasos para calcular el área de un rectángulo.
+
+
+
+## Results
+---
+API = ``` http://localhost:3000/ ```
+
+## Algorithms
+
+1. ``` http://localhost:3000/Algorithms/One ```
+
+```JSON
+// Request
+{
+	"numberOne": 1416541321,
+	"numberTwo": 15416546
+}
+
+//Result
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": 715978933.5
+  }
+}
+
+```
+
+2. ``` http://localhost:3000/Algorithms/Two ```
+
+```JSON
+// Request
+{
+	"number": 12
+}
+
+//Result
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": "Diciembre = 12"
+  }
+}
+
+```
+
+3. ``` http://localhost:3000/Algorithms/Three ```
+
+```JSON
+// Request
+{
+	"numberOne": 12,
+	"numberTwo": 24,
+	"operator": "*"
+}
+
+{
+	"numberOne": 12,
+	"numberTwo": 24,
+	"operator": "/"
+}
+
+{
+	"numberOne": 12,
+	"numberTwo": 24,
+	"operator": "+"
+}
+
+{
+	"numberOne": 12,
+	"numberTwo": 24,
+	"operator": "-"
+}
+
+//Result
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": "12 * 24 = 288"
+  }
+}
+
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": "12 + 24 = 36"
+  }
+}
+
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": "12 - 24 = -12"
+  }
+}
+
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": "12 / 24 = 0.5"
+  }
+}
+
+```
+
+4. ``` http://localhost:3000/Algorithms/Four ```
+
+```JSON
+// Request
+{
+	"numberOne": 2465677575,
+	"numberTwo": 247732,
+	"numberThree": 5898
+}
+
+//Result
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": 2465677575
+  }
+}
+
+```
+
+5. ``` http://localhost:3000/Algorithms/Five ```
+
+```JSON
+// Request
+{
+	"numberOne": 10,
+	"numberTwo": 9,
+	"numberThree": 14
+}
+
+//Result
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": 11
+  }
+}
+
+```
+
+6. ``` http://localhost:3000/Algorithms/Six ```
+
+```JSON
+// Request
+{
+	"numberOne": 100,
+	"numberTwo": 190,
+	"peopleOne": "Carlos",
+	"peopleTwo": "Arturo"
+}
+
+//Result
+{
+  "error": false,
+  "status": 200,
+  "body": {
+    "result": "Arturo es mayor porque tiene 190 años"
+  }
+}
+
+```
