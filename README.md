@@ -1,7 +1,7 @@
 # AlgorithmChallenge
 
-## Elaborar estos ejercicios en el lenguaje de su preferencia.
 ---
+## Elaborar estos ejercicios en el lenguaje de su preferencia.
 
 1. Elabora un algoritmo que solicite 2 numeros y muestre el promedio de ambos.
 
@@ -15,8 +15,10 @@
 
 6. Elaborar un algoritmo que solicite la edad de dos personas y muestre en pantalla la edad del mayor.
 
-## Elaborar estos ejercicios de diagramas de flujo.
 ---
+## Elaborar estos ejercicios de diagramas de flujo.
+
+
 1. Elabora un diagrama de flujo con los pasos para iniciar sesión en una cuenta de Facebook.
 
 2. Elabora un diagrama de flujo con los pasos para preparar cafe.
@@ -25,13 +27,13 @@
 
 
 
-## Results
 ---
+## Results
 API = ``` http://localhost:3000/ ```
 
 ## Algorithms
 
-1. ``` http://localhost:3000/Algorithms/One ```
+> 1. ``` http://localhost:3000/Algorithms/One ```
 
 ```JSON
 // Request
@@ -51,7 +53,7 @@ API = ``` http://localhost:3000/ ```
 
 ```
 
-2. ``` http://localhost:3000/Algorithms/Two ```
+> 2. ``` http://localhost:3000/Algorithms/Two ```
 
 ```JSON
 // Request
@@ -70,7 +72,7 @@ API = ``` http://localhost:3000/ ```
 
 ```
 
-3. ``` http://localhost:3000/Algorithms/Three ```
+> 3. ``` http://localhost:3000/Algorithms/Three ```
 
 ```JSON
 // Request
@@ -133,7 +135,7 @@ API = ``` http://localhost:3000/ ```
 
 ```
 
-4. ``` http://localhost:3000/Algorithms/Four ```
+> 4. ``` http://localhost:3000/Algorithms/Four ```
 
 ```JSON
 // Request
@@ -154,7 +156,7 @@ API = ``` http://localhost:3000/ ```
 
 ```
 
-5. ``` http://localhost:3000/Algorithms/Five ```
+> 5. ``` http://localhost:3000/Algorithms/Five ```
 
 ```JSON
 // Request
@@ -175,7 +177,7 @@ API = ``` http://localhost:3000/ ```
 
 ```
 
-6. ``` http://localhost:3000/Algorithms/Six ```
+> 6. ``` http://localhost:3000/Algorithms/Six ```
 
 ```JSON
 // Request
@@ -196,3 +198,17 @@ API = ``` http://localhost:3000/ ```
 }
 
 ```
+---
+## Flow Charts
+
+> 1. ``` http://localhost:3000/FlowChart/Facebook ```
+
+![Facebook.JPG](./api/FlowChart/Flow-charts/Facebook.JPG)
+
+> 2. ``` http://localhost:3000/FlowChart/Coffee ```
+
+![Coffee.JPG](./api/FlowChart/Flow-charts/Coffee.JPG)
+
+> 3. ``` http://localhost:3000/FlowChart/Rectangulo ```
+
+![Rectangulo.JPG](./api/FlowChart/Flow-charts/Rectangulo.JPG)
