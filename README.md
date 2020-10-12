@@ -203,12 +203,12 @@ API = ``` http://localhost:3000/ ```
 
 > 1. ``` http://localhost:3000/FlowChart/Facebook ```
 
-![Facebook.JPG](./api/FlowChart/Flow-charts/Facebook.JPG)
+![Facebook.JPG](./api/FlowChart/Flow-charts/Facebook.jpg)
 
 > 2. ``` http://localhost:3000/FlowChart/Coffee ```
 
-![Coffee.JPG](./api/FlowChart/Flow-charts/Coffee.JPG)
+![Coffee.JPG](./api/FlowChart/Flow-charts/Coffee.jpg)
 
 > 3. ``` http://localhost:3000/FlowChart/Rectangulo ```
 
-![Rectangulo.JPG](./api/FlowChart/Flow-charts/Rectangulo.JPG)
+![Rectangulo.JPG](./api/FlowChart/Flow-charts/Rectangulo.jpg)
