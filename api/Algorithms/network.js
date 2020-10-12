@@ -8,7 +8,7 @@ const router = express.Router()
 
 const algtmOne = (req, res, next) => {
   controller.algtmOne(req.body.numberOne, req.body.numberTwo)
-  .then(() => {
+  .then((token) => {
     response.success(req, res, token, 200)
   })
   .catch(next)
@@ -16,7 +16,7 @@ const algtmOne = (req, res, next) => {
 
 const algtmTwo = (req, res, next) => {
   controller.algtmTwo(req.body.number)
-  .then(() => {
+  .then((token) => {
     response.success(req, res, token, 200)
   })
   .catch(next)
@@ -24,7 +24,7 @@ const algtmTwo = (req, res, next) => {
 
 const algtmThree = (req, res, next) => {
   controller.algtmThree(req.body.numberOne, req.body.numberTwo, req.body.operator)
-  .then(() => {
+  .then((token) => {
     response.success(req, res, token, 200)
   })
   .catch(next)
@@ -32,7 +32,7 @@ const algtmThree = (req, res, next) => {
 
 const algtmFour = (req, res, next) => {
   controller.algtmFour(req.body.numberOne, req.body.numberTwo, req.body.numberThree)
-  .then(() => {
+  .then((token) => {
     response.success(req, res, token, 200)
   })
   .catch(next)
@@ -40,15 +40,15 @@ const algtmFour = (req, res, next) => {
 
 const algtmFive = (req, res, next) => {
   controller.algtmFive(req.body.numberOne, req.body.numberTwo, req.body.numberThree)
-  .then(() => {
+  .then((token) => {
     response.success(req, res, token, 200)
   })
   .catch(next)
 }
 
 const algtmSix = (req, res, next) => {
-  controller.algtmSix(req.body.numberOne, req.body.numberTwo, req.body.personOne, req.body.personTwo)
-  .then(() => {
+  controller.algtmSix(req.body.numberOne, req.body.numberTwo, req.body.peopleOne, req.body.peopleTwo)
+  .then((token) => {
     response.success(req, res, token, 200)
   })
   .catch(next)
